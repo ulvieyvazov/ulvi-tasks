@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(202, 184, 184);
+}
+
+
+div{
+    display: block;
+    font-size: 45px;
+    width: 33.33%;
+    box-sizing: border-box;
+    margin: 180px 0 0 0 ;
+    width: 200px;
+    height: 200px;
+}
+
+.icon{
+    font-size: 80px;
+    box-sizing: border-box;
+    display: block;
+    /*width: 200vh;*/
+}
+
+.birinci{
+    /*width: 200px;
+    height: 200px;*/
+    float: left;
+    padding: 0 0 0 180px;
+    /*background-color: green;*/
+}
+
+
+.ikinci{
+    float: left;
+    padding: 0 300px;
+    
+}
+
+.ucuncu{
+    float: left;
+    padding: 0 100px;
+
+}
+
+div>*:hover{
+    color: rgb(32, 32, 255);
+}
+
+.text{
+    padding: 0;
+    margin: 0%;
+}
+
+
+.text:hover{
+    color: rgb(8, 136, 8);
+
+}
