@@ -1,0 +1,28 @@
+div{
+    margin: 50px 80px;
+    width: 50%;
+    float: left;
+
+}
+
+.photo{
+    width: 400px;
+    height:380px;
+    background-image: url(./71-400x400.jpg);
+
+}
+
+.photo2{
+    width: 400px;
+    height: 380px;
+    position: relative;
+    background-image: url(./71-400x400.jpg);
+}
+
+.photo2::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
