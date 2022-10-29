@@ -1,0 +1,75 @@
+.coomon{
+    margin: 150px 250px;
+    width: 420px;
+    height: 205px;
+    border: 5px solid black;
+}
+
+
+
+.flex{
+    /*margin: 150px 200px;*/
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: flex;
+    float: left;
+}
+
+
+
+.flex-item{
+    margin: 8px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.div1{
+    
+
+}
+
+.div2{
+    align-self: center;
+}
+
+.div3{
+    align-self: flex-end;
+
+}
+
+.flex2{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    display: flex;
+    position: relative;    
+}
+
+
+.div4{
+}
+
+.div5{
+    align-self: flex-end;
+    position: absolute;
+    right: 135px;
+    
+}
+
+
+.div6{
+    align-self: center;
+}
+
+.div7{
+    align-self: flex-end;
+    position: absolute;
+    left: 130px;
+}
+
+.div8{
+
+}
