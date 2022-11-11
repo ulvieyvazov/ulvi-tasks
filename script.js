@@ -16,14 +16,3 @@ let kilometers = prompt('kilometri daxil edin')
 console.log(kilometers = kilometers / 0.6214);
 alert(kilometers = kilometers / 1)
 
-
-
-
-
-
-
-
-
-
-
-
