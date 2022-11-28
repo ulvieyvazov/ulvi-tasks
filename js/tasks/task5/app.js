@@ -1,12 +1,13 @@
 function ededler(value){
-    if(value>2 && value % 2 === 0){
-        console.log('eded murekkebdir');
-    }
-    else{
-        console.log('eded sadedir');
+    for(let i = 1; i<value; i++){
+        if( value % i === 0){
+            return 'murekkeb'
+        }
+        return 'sade'
+
     }
 }
-ededler(2)
+console.log(ededler(9)); 
 
 //----------------------------------------------------------------------------
 
