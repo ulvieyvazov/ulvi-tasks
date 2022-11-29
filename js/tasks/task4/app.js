@@ -1,6 +1,6 @@
 // let user = +prompt('eded daxil edin')
 // let cem = 0
-// for(a = 1; a <=user ; a++){  
+// for(a = 1; a <= user ; a++){  
 //     cem+=a
 
 // }
